@@ -11,7 +11,6 @@ class Request:
 			counter+=1
 
 		self.headers = self.data.splitlines()
-		print self.headers[0]
 
 
 
